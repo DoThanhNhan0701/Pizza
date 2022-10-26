@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2"
+    tools:context=".TableLayoutActivity">
+    <TableRow>
+        <Button
+            android:layout_column="1"
+            android:text="C1">
+        </Button>
+        <Button
+            android:layout_span="2"
+            android:text="C1">
+        </Button>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="d1">
+        </Button>
+        <Button
+            android:layout_column="2"
+            android:text="d2">
+        </Button>
+        <Button
+            android:text="d3">
+        </Button>
+    </TableRow>
+
+</TableLayout>

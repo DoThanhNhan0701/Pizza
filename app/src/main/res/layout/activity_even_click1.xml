@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".EvenCLick1Activity">
+    <LinearLayout
+        android:padding="5dp"
+        android:id="@+id/bmi"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtBMI"
+            android:text="BMI _ XML LISTENNER"
+            android:background="#2196F3"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_weight="2"
+        android:id="@+id/light"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/lightting"
+            android:text="LIGHTTING LISTENNER"
+            android:textColor="#fff"
+            android:onClick="BMI"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#9C27B0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/quota"
+            android:text="QUOTATION INSTANCE LISTENNER"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="#4CAF50"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/musicline"
+        android:padding="5dp"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/music"
+            android:gravity="center"
+            android:background="#FF5722"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="MUSIC ACTIVITY LISTENNER"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

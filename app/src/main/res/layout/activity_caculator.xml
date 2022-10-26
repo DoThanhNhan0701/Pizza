@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaculatorActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bao"
+            android:src="@drawable/bao"
+            android:scaleType="fitXY"
+            android:layout_width="120dp"
+            android:layout_height="160dp">
+        </ImageView>
+        <ImageView
+            android:id="@+id/bua"
+            android:src="@drawable/bua"
+            android:scaleType="fitXY"
+            android:layout_width="120dp"
+            android:layout_height="160dp">
+        </ImageView>
+        <ImageView
+            android:id="@+id/keo"
+            android:src="@drawable/keo"
+            android:scaleType="fitXY"
+            android:layout_width="120dp"
+            android:layout_height="160dp">
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/banchoaigi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/chon"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/chonicon"
+        android:src="@drawable/icon2"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/dangcho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/kkk"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/choilai"
+        android:layout_gravity="center"
+        android:backgroundTint="#838080"
+        android:text="@string/next"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>

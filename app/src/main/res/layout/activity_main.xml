@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    tools:ignore="RtlHardcoded"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/images">
+    </ImageView>
+    <Button
+        android:id="@+id/buttonden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center"
+        android:textAllCaps="false"
+        android:text="@string/turn_on"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/den8"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+    />
+    <ImageView
+        android:id="@+id/den4"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|right"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp"
+ />
+    <ImageView
+        android:id="@+id/den3"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|right"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/den6"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|left"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/den5"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|left"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/den1"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/den2"
+        android:src="@drawable/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|center"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/den7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/img"
+        android:text="@string/heloo"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+</FrameLayout>
